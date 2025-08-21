@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Aula 6.iml" filepath="$PROJECT_DIR$/Aula 6/Aula 6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula1/Aula1.iml" filepath="$PROJECT_DIR$/Aula1/Aula1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula2/Aula2.iml" filepath="$PROJECT_DIR$/Aula2/Aula2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Aulas---POO.iml" filepath="$PROJECT_DIR$/.idea/Aulas---POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estudo/Estudo.iml" filepath="$PROJECT_DIR$/Estudo/Estudo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/Lista - Modelagem e Implementacao de Relacionamentos.iml" filepath="$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/Lista - Modelagem e Implementacao de Relacionamentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex1/ex1.iml" filepath="$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex1/ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex2/ex2.iml" filepath="$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex2/ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex3/ex3.iml" filepath="$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex3/ex3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex4/ex4.iml" filepath="$PROJECT_DIR$/Aula 6/Lista - Modelagem e Implementacao de Relacionamentos/ex4/ex4.iml" />
     </modules>
   </component>
 </project>
