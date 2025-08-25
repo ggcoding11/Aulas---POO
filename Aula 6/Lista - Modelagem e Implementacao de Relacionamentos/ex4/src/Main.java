@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Autor stephen = new Autor("Stephen King", "Estadunidense");
+        Autor autor = new Autor("Gustavo", "Brasileiro");
 
-        Livro it = new Livro("It", stephen);
-        Livro iluminado = new Livro("O Iluminado", stephen);
+        Livro livro1 = new Livro("IT", autor);
+        Livro livro2 = new Livro("O cemiterio", autor);
 
-        stephen.livros[0] = it;
-        stephen.livros[1] = iluminado;
+        System.out.println(livro1.autor.nome);
+        System.out.println(livro2.autor.nacionalidade);
     }
 }
