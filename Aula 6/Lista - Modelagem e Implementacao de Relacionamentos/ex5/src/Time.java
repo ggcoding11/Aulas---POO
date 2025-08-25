@@ -4,10 +4,12 @@ public class Time {
 
     Jogador[] jogadores;
 
-    Time(String nome, String cidade, Jogador jogador){
+    Time(String nome, String cidade, Jogador jogador, int tamanho){
         this.nome = nome;
         this.cidade = cidade;
-        this.jogadores = new Jogador[3]; //Inicializo a lista (ainda não estamos trabalhando com DINAMICA)
+        //Aqui eu defini o tamanho do time e já adicionei o primeiro (pois é o mínimo segundo o diagrama)
+
+        this.jogadores = new Jogador[tamanho]; //Inicializo a lista (ainda não estamos trabalhando com DINAMICA)
         //Como é 1..*, ele começa com um jogador, mas pode ter mais
         this.jogadores[0] = jogador;
     }
