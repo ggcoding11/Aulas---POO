@@ -3,6 +3,7 @@ public class Jogador {
     String posicao;
 
     Jogador(String nome, String posicao){
-
+        this.nome = nome;
+        this.posicao = posicao;
     }
 }
