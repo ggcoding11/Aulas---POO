@@ -1,6 +1,6 @@
 public class Jogador {
-    String nome;
-    String posicao;
+    public String nome;
+    public String posicao;
 
     Jogador(String nome, String posicao){
         this.nome = nome;

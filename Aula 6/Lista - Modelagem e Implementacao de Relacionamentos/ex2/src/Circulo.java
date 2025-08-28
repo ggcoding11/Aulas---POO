@@ -1,5 +1,5 @@
 public class Circulo {
-    double raio;
+    private double raio;
 
     double calcularArea(){
         return Math.PI * Math.pow(raio, 2);

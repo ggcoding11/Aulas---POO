@@ -1,6 +1,6 @@
 public class Time {
-    String nome;
-    String cidade;
+    private String nome;
+    private String cidade;
 
     Jogador[] jogadores;
 

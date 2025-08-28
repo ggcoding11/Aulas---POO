@@ -1,6 +1,6 @@
 public class Motor {
-    int potencia;
-    String tipoCombustivel;
+    public int potencia;
+    public String tipoCombustivel;
 
     Motor(int potencia, String tipoCombustivel){
         this.potencia = potencia;

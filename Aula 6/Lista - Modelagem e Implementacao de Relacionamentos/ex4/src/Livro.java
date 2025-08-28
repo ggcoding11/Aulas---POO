@@ -1,6 +1,6 @@
 public class Livro {
-    String titulo;
-    Autor autor;
+    public String titulo;
+    public Autor autor;
 
     Livro(String titulo, Autor autor) {
         this.titulo = titulo;

@@ -1,6 +1,6 @@
 public class Carro {
-    String marca;
-    String modelo;
+    private String marca;
+    private String modelo;
 
     Motor motor;
 
