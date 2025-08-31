@@ -15,6 +15,10 @@ public class Pessoa {
     }
 
     public void setIdade(int idade){
-        this.idade = idade;
+        if (idade > 0) {
+            this.idade = idade;
+        } else {
+            System.out.println("Idade inválida");
+        }
     }
 }
