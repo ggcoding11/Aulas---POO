@@ -5,19 +5,19 @@ public class Hotel {
     String endereco;
     private ArrayList<Quarto> quartos;
 
-    public Hotel(String nome, String endereco, int numero, String tipo, double precoPorNoite, boolean ocupado){
+    public Hotel(String nome, String endereco, int numero, String tipo, double precoPorNoite){
         this.nome = nome;
         this.endereco = endereco;
 
         quartos = new ArrayList<>();
 
-        Quarto q = new Quarto(numero, tipo, precoPorNoite, ocupado);
+        Quarto q = new Quarto(numero, tipo, precoPorNoite);
 
         quartos.add(q);
     }
 
     public void adicionarQuarto(int numero, String tipo, double precoPorNoite){
-        Quarto q = new Quarto(numero, tipo, precoPorNoite, false);
+        Quarto q = new Quarto(numero, tipo, precoPorNoite);
 
         quartos.add(q);
     }
@@ -35,5 +35,6 @@ public class Hotel {
     public void exibirRelatorio(){
         System.out.println("Relatório do hotel");
 
+        //Parei aqui!!
     }
 }

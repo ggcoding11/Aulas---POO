@@ -6,11 +6,11 @@ public class Quarto {
 
     private Hospede hospedeAtual;
 
-    public Quarto(int numero, String tipo, double precoPorNoite, boolean ocupado){
+    public Quarto(int numero, String tipo, double precoPorNoite){
         this.numero = numero;
         this.tipo = tipo;
         this.precoPorNoite = precoPorNoite;
-        this.ocupado = ocupado;
+        this.ocupado = false;
     }
 
     public void setOcupado(boolean ocupado){
