@@ -23,8 +23,12 @@ public class Hotel {
     }
 
     public void hospedarCliente(Quarto quarto, Hospede hospede){
-        quarto.setOcupado(true);
-        quarto.setHospedeAtual(hospede);
+        if(quarto.isOcupado() == false) {
+            quarto.setOcupado(true);
+            quarto.setHospedeAtual(hospede);
+        } else {
+            System.out.println("Já está ocupado!");
+        }
     }
 
     public void realizarCheckout(Quarto quarto){
@@ -46,6 +50,7 @@ public class Hotel {
             System.out.println("Tipo: " + quarto.getTipo());
             System.out.println("Número: " + quarto.getNumero());
             System.out.println("Preço por noite: " + quarto.getPrecoPorNoite());
+            System.out.println("Ocupado: " + quarto.isOcupado());
 
             if (quarto.getHospedeAtual() != null){
                 System.out.println("Nome do hóspede: " + quarto.getHospedeAtual().nome);
