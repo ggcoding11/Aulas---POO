@@ -11,6 +11,27 @@ public class Quarto {
         this.tipo = tipo;
         this.precoPorNoite = precoPorNoite;
         this.ocupado = false;
+        this.hospedeAtual = null;
+    }
+
+    public double getPrecoPorNoite() {
+        return precoPorNoite;
+    }
+
+    public Hospede getHospedeAtual() {
+        return hospedeAtual;
+    }
+
+    public boolean isOcupado() {
+        return ocupado;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public String getTipo() {
+        return tipo;
     }
 
     public void setOcupado(boolean ocupado){

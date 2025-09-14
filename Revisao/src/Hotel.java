@@ -32,9 +32,29 @@ public class Hotel {
         quarto.setHospedeAtual(null);
     }
 
+    public ArrayList<Quarto> getQuartos() {
+        return quartos;
+    }
+
     public void exibirRelatorio(){
         System.out.println("Relatório do hotel");
 
-        //Parei aqui!!
+        System.out.println();
+
+        for (Quarto quarto: this.quartos){
+            System.out.println("Quarto " + (quartos.indexOf(quarto) + 1) + ": ");
+            System.out.println("Tipo: " + quarto.getTipo());
+            System.out.println("Número: " + quarto.getNumero());
+            System.out.println("Preço por noite: " + quarto.getPrecoPorNoite());
+            System.out.println("Ocupado: " + quarto.isOcupado());
+
+            if (quarto.getHospedeAtual() != null){
+                System.out.println("Nome do hóspede: " + quarto.getHospedeAtual().nome);
+                System.out.println("CPF: " + quarto.getHospedeAtual().cpf);
+            }
+
+            System.out.println();
+            System.out.println();
+        }
     }
 }
