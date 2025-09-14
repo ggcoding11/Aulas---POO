@@ -9,8 +9,6 @@ public class Main {
         Hospede h1 = new Hospede("Gustavo", "000.000.00-00");
         Hospede h2 = new Hospede("Maria", "000.000.000-00");
 
-        bonaparte.exibirRelatorio();
-
         bonaparte.hospedarCliente(bonaparte.getQuartos().get(0), h1);
 
         bonaparte.exibirRelatorio();

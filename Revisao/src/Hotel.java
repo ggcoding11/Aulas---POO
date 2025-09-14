@@ -46,7 +46,6 @@ public class Hotel {
             System.out.println("Tipo: " + quarto.getTipo());
             System.out.println("Número: " + quarto.getNumero());
             System.out.println("Preço por noite: " + quarto.getPrecoPorNoite());
-            System.out.println("Ocupado: " + quarto.isOcupado());
 
             if (quarto.getHospedeAtual() != null){
                 System.out.println("Nome do hóspede: " + quarto.getHospedeAtual().nome);

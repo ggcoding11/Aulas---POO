@@ -39,7 +39,7 @@ public class Quarto {
     }
 
     public void setHospedeAtual(Hospede hospede){
-        this.hospedeAtual = hospedeAtual;
+        this.hospedeAtual = hospede;
     }
 
 
