@@ -1,0 +1,3 @@
+Não seria possível, pois quando estamos usando o "static" estamos falando da classe em si.
+Então, um método com static simplesmente não consegue olhar para cada objeto individualmente, pois
+lida com a própria classe.

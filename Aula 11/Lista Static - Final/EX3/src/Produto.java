@@ -12,5 +12,7 @@ public class Produto {
 
     public static void setTaxaImposto(double novaTaxa) {
         taxaImposto = novaTaxa;
+
+        System.out.println("O preço atual do objeto: ");
     }
 }

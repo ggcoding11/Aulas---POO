@@ -1,0 +1,4 @@
+A diferença principal é que o atributo taxaImposto é um atributo ligado a própria classe, enquanto
+preco é um atributo individual para cada objeto.
+
+Em resumo, cada objeto tem o seu "preco", mas todos compartilham a mesma "taxaImposto"!
