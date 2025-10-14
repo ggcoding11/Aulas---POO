@@ -9,4 +9,12 @@ public class Moto extends Veiculo {
     public int getCilindradas() {
         return cilindradas;
     }
+
+    public void mostrarDetalhes(){
+        System.out.println("MOTO: ");
+        System.out.println("Marca = " + super.getModelo());
+        System.out.println("Modelo = " + super.getMarca());
+        System.out.println("Ano = " + super.getAno());
+        System.out.println("Cilindradas = " + this.getCilindradas());
+    }
 }
