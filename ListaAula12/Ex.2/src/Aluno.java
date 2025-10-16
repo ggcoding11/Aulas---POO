@@ -11,8 +11,7 @@ public class Aluno extends Pessoa{
     }
 
     public void mostrarDetalhes(){
-        System.out.println("Nome: " + super.getNome());
-        System.out.println("CPF: " + super.getCpf());
+        super.mostrarDetalhes();
         System.out.println("R.A: " + this.getRa());
     }
 }

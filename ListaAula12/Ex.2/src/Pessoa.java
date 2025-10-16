@@ -14,4 +14,9 @@ public class Pessoa {
     public String getCpf() {
         return cpf;
     }
+
+    public void mostrarDetalhes(){
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("CPF: " + this.getCpf());
+    }
 }

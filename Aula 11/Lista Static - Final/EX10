@@ -1,0 +1,5 @@
+Eu criaria um método estático, pois a única coisa
+que eu vou fazer com a classe CalculadoraDeJuros é usar
+o método para calcular os juros. Não como se eu fosse precisar
+de várias "calculadoras" (mais de uma instância). Dito isso,
+é só usar o método static na classe FinanceiroUtil.
