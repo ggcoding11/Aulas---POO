@@ -10,7 +10,7 @@ public class Carro extends Veiculo {
         return numeroDePortas;
     }
 
-    void exibirDetalhes() {
+    public void exibirDetalhes() {
         System.out.println("CARRO: ");
         System.out.println("Marca = " + super.getMarca());
         System.out.println("Modelo = " + super.getModelo());
